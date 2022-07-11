@@ -4,9 +4,6 @@ S — Single responsibility principle
  */
 package paquete02;
 
-
-import java.util.ArrayList;
-
 /**
  *
  * @author reroes

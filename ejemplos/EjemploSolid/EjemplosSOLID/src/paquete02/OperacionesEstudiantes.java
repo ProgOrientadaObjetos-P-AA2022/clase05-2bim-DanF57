@@ -39,13 +39,18 @@ public class OperacionesEstudiantes {
 
     @Override
     public String toString() {
-        String cadena = "------------Listado De Estudiantes--------\n";
+        
+        String cadena = "------------Listado De Estudiantes------------\n";
+
         for (int i = 0; i < estudiantes.size(); i++) {
-            cadena = String.format("%sEstudiante: %s\n", cadena,
+            cadena = String.format("%sEstudiante %d : %s\n", 
+                    cadena,
+                    (i+1),
                     obtenerEstudiante().get(i).obtenerNombre());
         }
-        cadena = String.format("%sPromedio de edades de los estudiantes es: %s\n"
-                ,cadena,
+
+        cadena = String.format("%s\nPromedio de edades de los estudiantes es: %s\n",
+                cadena,
                 obtenerPromedioEdades());
         return cadena;
     }
