@@ -12,7 +12,7 @@ public class APIAmazonMovie implements APIMovie{
     
     @Override
     public void establecerApiKey(String ak){
-        apiKey = ak+"909090";
+        apiKey = String.format("%s909090", ak);
     }
     
     @Override

@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "paquete02.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(1)",
+            "request": "launch",
+            "mainClass": "paquete03.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(2)",
+            "request": "launch",
+            "mainClass": "paquete04.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(3)",
+            "request": "launch",
+            "mainClass": "paquete05.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(4)",
+            "request": "launch",
+            "mainClass": "paquete06.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(5)",
+            "request": "launch",
+            "mainClass": "paquete07.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(6)",
+            "request": "launch",
+            "mainClass": "paquete08.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(7)",
+            "request": "launch",
+            "mainClass": "paquete09.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(8)",
+            "request": "launch",
+            "mainClass": "paquete10.Principal",
+            "projectName": "clase05-2bim-DanF57_d31ae9cb"
+        }
+    ]
+}

@@ -9,7 +9,8 @@ package paquete10;
  *
  * @author reroes
  */
-public interface APIMovie {
+//REVISAR DIFERENCIA INTERFACE - ABSTRACT
+public interface APIMovie { 
     
     public void establecerApiKey(String ak);
     

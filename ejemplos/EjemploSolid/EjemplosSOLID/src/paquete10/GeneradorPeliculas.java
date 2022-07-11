@@ -5,7 +5,9 @@
  */
 package paquete10;
 
-public class GeneradorPeliculas {
+import java.io.Serializable;
+
+public class GeneradorPeliculas implements Serializable{
     
     private APIMovie llave;
     private String url;
