@@ -27,7 +27,7 @@ public class OperacionesEstudiantes {
     public void establecerPromedioEdades(){
         double suma = 0;
         for(Persona e: obtenerEstudiante()){
-            suma = e.obtenerEdad();
+            suma += e.obtenerEdad();
         }
         promedioEdades = suma/obtenerEstudiante().size();
     }
@@ -36,6 +36,18 @@ public class OperacionesEstudiantes {
         
         return promedioEdades;
     }
-    
+
+    @Override
+    public String toString() {
+        String cadena = "------------Listado De Estudiantes--------\n";
+        for (int i = 0; i < estudiantes.size(); i++) {
+            cadena = String.format("%sEstudiante: %s\n", cadena,
+                    obtenerEstudiante().get(i).obtenerNombre());
+        }
+        cadena = String.format("%sPromedio de edades de los estudiantes es: %s\n"
+                ,cadena,
+                obtenerPromedioEdades());
+        return cadena;
+    }
     
 }
